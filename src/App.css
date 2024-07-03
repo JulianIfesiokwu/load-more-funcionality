@@ -1,0 +1,34 @@
+.products-container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.product {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  border-radius: 8px;
+  border: #ddd 1px solid;
+  padding: 16px;
+}
+
+.btn-container,
+.loading {
+  margin: 2rem auto;
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  margin: 0 auto;
+  width: 20%;
+}
